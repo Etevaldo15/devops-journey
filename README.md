@@ -18,9 +18,10 @@ Este repositório documenta minha jornada prática de aprendizado em:
 ## 📂 Estrutura do Repositório
 
 devops-journey/
-├── 01-kubernetes/ → Labs, YAMLs, cheatsheets para CKA
-├── 02-terraform/ → Módulos IaC para AWS/Azure
-├── 03-ansible/ → Playbooks para automação de servidores
-├── 04-monitoring/ → Dashboards Grafana, config Prometheus
-├── 05-scripts/ → Bash/Python para automação diária
-└── roadmap.md → Meu plano de estudos (atualizado mensalmente)
+
+- 01-kubernetes/ → Labs, YAMLs, cheatsheets para CKA
+- 02-terraform/ → Módulos IaC para AWS/Azure
+- 03-ansible/ → Playbooks para automação de servidores
+- 04-monitoring/ → Dashboards Grafana, config Prometheus
+- 05-scripts/ → Bash/Python para automação diária
+- roadmap.md → Meu plano de estudos (atualizado mensalmente)
