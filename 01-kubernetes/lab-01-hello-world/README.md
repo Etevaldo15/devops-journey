@@ -45,3 +45,26 @@ docker pull nginx:1.21
 kubectl delete deployment nginx-deployment -n lab-01
 kubectl apply -f deployment.yaml -n lab-01
 ```
+
+## 🌐 Acesso Externo com NodePort
+
+Para expor o serviço fora do cluster:
+
+```yaml
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30080
+```
+
+---
+
+## 🧪 DICA EXTRA: Como funciona no Windows?
+
+Se você estiver no **Windows com Docker Desktop**, o Minikube geralmente usa `127.0.0.1` como IP:
+
+```bash
+curl http://127.0.0.1:30080
+```
