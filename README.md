@@ -25,3 +25,11 @@ devops-journey/
 - 04-monitoring/ → Dashboards Grafana, config Prometheus
 - 05-scripts/ → Bash/Python para automação diária
 - roadmap.md → Meu plano de estudos (atualizado mensalmente)
+
+### 02 - NodePort Exposure
+
+- Serviço do tipo `NodePort` para acesso externo.
+- Acesso via navegador usando `minikube ip`.
+- ✅ **Status: Concluído em 01/09/2025**
+
+🔗 [Acessar lab](01-kubernetes/lab-02-nodeport/)
